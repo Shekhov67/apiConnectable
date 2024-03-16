@@ -1,0 +1,18 @@
+_id: env_c8818231838944f780ffdf1baebf1ce4
+type: Environment
+parentId: env_168fe2fa5c45430a8cfe9cc55a06cb87
+modified: 1708452751164
+created: 1708452388689
+name: QAtest
+data:
+  stage_url: https://staging.connectable.site
+  prod_url: https://connectable.site
+  authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsiX2lkIjoiNjVkNGRlZTc3ZTNlODkwMDFmZWFjNTY2IiwiZW1haWwiOiJ0MjVAZ21haWwuY29tIiwiZmlyc3ROYW1lIjoi0J3QvtCy0YvQuTI1IiwibGFzdE5hbWUiOiLQmNCy0LDQvSIsInBpY3MiOltdfSwiaWF0IjoxNzA4NDQ5Njc5LCJleHAiOjE3MTExMjgwNzl9.nOUzFLkRgkj0o20YTSjRDIfA5-zOUt-9zWp_MxolNUk
+dataPropertyOrder:
+  "&":
+    - stage_url
+    - prod_url
+    - authorization
+color: "#2732d3"
+isPrivate: false
+metaSortKey: 1708452388689

@@ -1,0 +1,25 @@
+_id: req_f8cbe590749644ea911c77d55140e83c
+type: Request
+parentId: fld_df2db9fe361547a8b0accb40ac1fb136
+modified: 1710590729694
+created: 1710590717120
+url: "{{ _.stage_url }}/api/structure/byClient/:workspace/dept_users"
+name: Получение списка сотрудников отделов всей компании
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_06386f412b3a4af78b3d1db6190fbbd3
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1710056204490.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

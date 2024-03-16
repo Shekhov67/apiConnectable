@@ -1,0 +1,25 @@
+_id: req_e009d74002034784a9470f6b436cfeae
+type: Request
+parentId: fld_df2db9fe361547a8b0accb40ac1fb136
+modified: 1710591693323
+created: 1710591677337
+url: "{{ _.stage_url }}/api/structure/byClient/:workspace"
+name: Найти структуру по кодовому имени компании
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_06386f412b3a4af78b3d1db6190fbbd3
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1710323293530.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

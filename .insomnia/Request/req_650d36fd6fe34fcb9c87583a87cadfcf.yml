@@ -1,0 +1,40 @@
+_id: req_650d36fd6fe34fcb9c87583a87cadfcf
+type: Request
+parentId: fld_df2db9fe361547a8b0accb40ac1fb136
+modified: 1710591896591
+created: 1710590587480
+url: "{{ _.stage_url }}/api/dept_users/"
+name: Удаление сотрудника из отдела
+description: ""
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: client_id
+      value: testing9
+      id: pair_8a6f2b9c61e445efa9f69721cd8c7b8e
+    - id: pair_95fb5dfe25c2410aac56be41ec010df2
+      name: dept_id
+      value: adm196
+      description: ""
+    - id: pair_868f137c99a247ad9807ca79bccb059b
+      name: user_id
+      value: 65d3c030e64fdc001ef37860
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - id: pair_06386f412b3a4af78b3d1db6190fbbd3
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1709522026410
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

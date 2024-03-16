@@ -1,0 +1,32 @@
+_id: req_af5c40eecf3c4f54815d9cfa6d639ced
+type: Request
+parentId: fld_7fb67719a83e4ce18669766620b4c161
+modified: 1708962641646
+created: 1708933862239
+url: "{{ _.prod_url }}/adaptation/:client_id/setting"
+name: Эндпойны
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.6.1
+    id: pair_2aa62b68806f4b1d84645948d386e373
+  - id: pair_89321600bc6a4a58b3b27a9f4e5421f9
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1708451688981.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

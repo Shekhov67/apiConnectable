@@ -1,0 +1,32 @@
+_id: req_9cfc8debb66a4a2f92fe5d50697b236f
+type: Request
+parentId: fld_758d93a10ccd45b2a44081011fc4c036
+modified: 1708453844489
+created: 1708453680619
+url: "{{ _.stage_url }}/api/service/byArticle/:article_id"
+name: Получение всех сервисов
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.6.1
+    id: pair_2aa62b68806f4b1d84645948d386e373
+  - id: pair_89321600bc6a4a58b3b27a9f4e5421f9
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1708453670249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

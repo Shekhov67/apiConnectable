@@ -1,0 +1,25 @@
+_id: req_d2bc52bbe2604206a4908284dceebf64
+type: Request
+parentId: fld_df2db9fe361547a8b0accb40ac1fb136
+modified: 1710591905775
+created: 1710591571367
+url: "{{ _.stage_url }}/api/dept_users/clear_chief/:empl_id"
+name: Удаление начальника отдела (или отделов)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_06386f412b3a4af78b3d1db6190fbbd3
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1709789115450.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
